@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Microsoft clone</title>
+</head>
+
+<body>
+
+    <nav class="bg-white h-12 w-full flex justify-between px-3 items-center border-b-2 border-slate-200">
+
+        <div class="flex space-x-4 items-center md:order-2">
+            <div>
+                <div class="text-2xl font-normal text-slate-500 cursor-pointer md:hidden">&#9776;</div>
+            </div>
+            <div class="font-extralight text-slate-500 cursor-pointer md:order-2 md:hidden flex">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+
+        <div class="cursor-pointer md:order-1 flex md:space-x-8 ">
+            <img class="h-6 border-r-2 md:border-black md:px-4"
+                src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                alt="">
+
+
+            <div class="features md:flex xl:flex lg:flex space-x-4 md:block xl::block lg:block hidden md:items-center">
+                <div class="fitems font-semibold text-lg">Microsoft 365</div>
+                <div class="fitems text-sm text-slate-600">Products</div>
+                <div class="fitems text-sm text-slate-600">Plans and pricing</div>
+                <div class="fitems text-sm text-slate-600 md:hidden xl:block lg:block">Resources</div>
+                <div class="fitems text-sm text-slate-600 md:hidden xl:block lg:block">Support</div>
+                <div class="fitems text-sm text-slate-600 md:hidden xl:block lg:block">Admin Center</div>
+                <div class="fitems text-sm text-slate-600 xl:hidden md:block lg:hidden">More</div>
+            </div>
+        </div>
+
+
+        <div class="md:order-3 flex items-center space-x-5">
+            <div class="md:block hidden">All Microsoft</div>
+            <div>
+                <div class="font-extralight text-slate-500 cursor-pointer md:block hidden">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="border-2 h-9 w-9 flex items-center justify-center rounded-full cursor-pointer">
+                <i class="fa-regular fa-user" style="color: #000000; justify-self: center;"></i>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- NAVIGATION BAR ENDS HERE  -->
+
+    <div class="h-7 border-b-[0.5px] border-gray-400 px-4 text-[1rem] font-semibold items-center flex space-x-2">
+        <div class="cursor-pointer">Microsoft 365</div>
+        <i class="fa-solid fa-angle-down text-gray-400 cursor-pointer"></i>
+    </div>
+
+    <!-- SIDEBAR Starts here  -->
+
+    <div class="sidebar flex flex-col md:flex-row bg-[#f2f2f2] cursor-pointer shadow-md h-2/4">
+
+        <!-- for imge -->
+        <div class="left md:w-2/4 lg:h-2/4 md:flex justify-center ">
+            <img class="h-full w-[40rem]"
+                src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP1-539x440"
+                alt="">
+        </div>
+
+
+        <!-- for content  -->
+        <div class="right px-7 bg-white md:bg-[#f2f2f2] flex-col justify-center md:flex md:justify-center mx-4">
+            <h1 class="text-2xl my-3 font-semibold md:text-4xl">Surface Pro 9</h1>
+            <p class="w-3/4 my-3">Tablet Versatility and laptop -- all in one ultra-portable device</p>
+            <button class="bg-blue-800 text-white font-bold py-2 px-3 my-4 border-b md:w-2/4 active:bg-blue-900 hover:bg-blue-900">Learn More</button>
+        </div>
+
+    </div>
+
+    <!-- scroll section  -->
+
+    <div class="h-16 flex w-full justify-center items-center space-x-7">
+        <i class="fa-regular fa-circle-pause "></i>
+        <i class="fa-solid fa-angle-left h-[16px] hover:relative hover:right-2"></i>
+        <div class="h-[14px] w-[14px] border-2 border-black rounded-full hover:bg-black"></div>
+        <div class="h-[14px] w-[14px] border-2 border-black rounded-full hover:bg-black"></div>
+        <i class="fa-solid fa-angle-right hover:relative hover:left-2"></i>
+
+    </div>
+
+    <!-- middle section -->
+
+    <section class="h-auto mx-11">
+        
+        
+        <div class="flex space-x-6 items-center flex-wrap">
+            <div class="flex flex-col justify-evenly w-44 bg-slate-500 flex-wrap">
+                <div class="flex justify-center">
+                    <img class="h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAFVBMVEUAAAD////FxcXMzMzCwsLJycnv7++cCF4iAAAAd0lEQVRoge3UwREAERREQSzyD3lr1UYwDg76BTB9+ZQS1+pXywc2YrPZbDabzWaz2Ww2m81ms9lsNpvNZrNvsvuy+8bCkzbmsueIF0o9F/syu6X1/857vHD0fefd+qey2Ww2m81ms9lsNpvNZrPZbDabzWaz2VEvTvMI8pDrt/MAAAAASUVORK5CYII=" alt="">
+            </div>
+                <div class="my-2 font-semibold underline">Choose your Microsoft 365</div>
+            </div>
+
+            <div class=" flex flex-col justify-evenly items-center w-44 sm:flex-wrap">
+                <div class="flex justify-center">
+                <img class="h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8AAADo6Oi+vr5MTEyLi4sPDw/x8fH5+fn8/PyIiIjExMTPz89lZWX29vZfX181NTUjIyOfn58eHh4vLy9vb28UFBTi4uLb29s+Pj6WlpalpaUICAhqamp/f39WVlaurq4ztl5YAAABWklEQVRoge2WbZOCIBCA2cQCUwLBt7L0///Kk7qS7m7EMGeam30+ILvjPIMrb4QgCIIgCIIgyIex20yxW+ROYJqMhbuPkEdTnOAQLm8LzwsxhFcGEs8LOWxQ/p/kxzXlogp2zxm5y/ml9eqTp3DIRs6Qv1O+B+GGpe9DX5Q/rf5t/DnyyzpyJgZSz54XJmcdtFJqUNNrJEw+zF9NqQHPYRAmP6SEcM4J0yvJLWJVudk31OEpoEW6TC4jd/Noe+mG9K1ySYr15D+QC+VKTF24Fv5Q5STT3BI5mTfKu2sttHMiLJMzV55d5eZZzjljnNmGk3KePIs2VV1XVT3K+V0uuCPXWiulTanV0IF58tNgudjmcVmUbfk9R8ot3Aef2riPgDT93naPs+QklqaIjRyP3M7IO2asTKKUko2mWjZDLxN/y37Bb2V0Ew+cLLsibo+ZagRBEARBEARZny+fkxOz9ZtLkwAAAABJRU5ErkJggg==" alt="">
+            </div>
+                <div class="my-2 font-semibold">Explore Surface devices</div>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center flex-wrap">
+                <div class="flex justify-center">
+                <img class="h-9" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Xbox_Logo.svg/372px-Xbox_Logo.svg.png?20150924190607" alt="">
+            </div>
+                <div class="my-2 font-semibold">Buy Xbox games and console</div>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center flex-wrap">
+                <div class="flex justify-center">
+                <img class="h-9" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAFVBMVEUAAAD////FxcXMzMzCwsLJycnv7++cCF4iAAAAd0lEQVRoge3UwREAERREQSzyD3lr1UYwDg76BTB9+ZQS1+pXywc2YrPZbDabzWaz2Ww2m81ms9lsNpvNZrNvsvuy+8bCkzbmsueIF0o9F/syu6X1/857vHD0fefd+qey2Ww2m81ms9lsNpvNZrPZbDabzWaz2VEvTvMI8pDrt/MAAAAASUVORK5CYII=" alt="">
+            </div>
+                <div class="my-2 font-semibold text-blue-400">Get Windows 11</div>
+            </div>
+        </div>
+       
+
+    </section>
+
+</body>
+
+</html>
