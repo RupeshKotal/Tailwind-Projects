@@ -1,0 +1,294 @@
+/* Google Fonts */
+
+/* For paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* For heading  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+/* Css Reset  */
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Genral layout */
+section{
+    margin-top: 3rem !important;
+}
+
+h2:hover , h3:hover{
+    text-decoration: underline;
+}
+/* Utility class  */
+.flex{
+    display: flex;
+}
+
+.container
+{
+    max-width: 1182px;
+    padding: 0px 3rem;
+    margin: 0 auto;
+}
+
+.headingHr{
+    align-items: center;
+}
+
+.headingHr::after{
+    content: '';
+    flex-grow: 1;
+    background-color: black;
+    height: 0.2rem;
+}
+
+/* ==================================================== */
+header{
+    justify-content: space-between;
+    font-family: "poppins", sans-serif;
+    background-color: yellow;
+    padding: 0.7rem 1.5rem;
+    align-items: center;
+}
+
+/* rem: it checked what is the font sizze  of root(html/body) by defaulte it is 16 px so itmultiply by this root value  1.45 * 16 =24px   */
+
+header img{
+    height: 1.45rem;
+}
+
+header form{
+    background-color: white;
+    align-items: center;
+    padding:0.5rem;
+}
+
+.inputSerch{
+    border: none;
+    font-size: 1.5rem;
+    width: 12rem;
+}
+
+.inputSerch:focus{
+    /* border: none; */
+    outline: none;
+}
+
+.inputSerch::placeholder{
+    color: black;
+}
+
+.headerButtons{
+    margin-right: 1rem;
+}
+
+.headerButtons > a:link,
+.headerButtons > a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+/* sub header 2nd Header  */
+
+.subHeader{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    column-gap: 2rem;
+    
+    font-weight: 700;
+    padding: 1rem 0rem;
+}
+
+.subHeader > * {
+    padding: 0rem 1rem;
+    border-right: 2px solid white;
+}
+
+.subHeader :last-child{
+    border-right: none;
+}
+
+.subHeaderSocial > *{
+    margin-right: 1rem;
+}
+
+
+/* BigNews section  */
+
+.bigNews{
+    height: 18rem;
+    gap: 2rem;
+}
+
+.bigNewsContent{
+    width: 45%;  
+}
+
+.bigNewsContent  h2:hover{
+    text-decoration: underline;
+}
+
+.bigNewsImg{
+    height: inherit;
+    background-image: url(https://t2.genius.com/unsafe/668x376/https%3A%2F%2Fimages.genius.com%2F3fde1b8d572100d828324ca616ab36b9.1920x1080x1.png);
+    width: 55%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.secondCont{
+    height: 30rem;
+
+
+}
+.news{
+    margin-bottom: 0px;
+    gap: 0px 0px;
+}
+
+.box{
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    max-width: 50rem;
+}
+
+.box:last-child{
+    border-right: none;
+}
+
+.smallImg{
+    background: url(https://t2.genius.com/unsafe/91x91/https%3A%2F%2Fimages.genius.com%2F4cf51dbe83eee7789c42228cd780ed53.1000x1000x1.png);
+
+    height: 10rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0px
+
+}
+
+.smallFont{
+    font-size: 0.8rem;
+    flex-direction: row;
+    font-weight: 100;
+    color: #5a6464;
+    margin-top: 5rem;
+}
+
+.secondContH2
+{
+    font-weight: 200;
+    margin-top: 0px;
+    padding-top: 0px;
+    gap: 0px 0px;
+}
+
+/* Chart section */
+
+.chartDrop{
+    height: 1.8rem;
+    padding: 1rem 1.8rem;
+    
+}
+
+.chartDrop{
+    border: 2.5px solid black;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chartHead{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.chartHead h1{
+    font-size: 4.5rem;
+}
+
+/* leaderboard */
+
+.firstsec{
+    width: 100%;
+    height: 5rem;
+    border-bottom: 2px solid #ddd5d5;
+    align-items: center;
+}
+
+.sidesec{
+    width: 10rem;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.sidesec > span{
+    font-size: 2rem;
+}
+
+
+
+.lbimg{
+    background: url(https://t2.genius.com/unsafe/60x60/https%3A%2F%2Fimages.genius.com%2F4ed882736282fcf77a994fc1fbcc777c.300x300x1.png);
+
+    height: 3.5rem;
+    width: 3.5rem;
+    background-size: cover;
+}
+
+.secondsec{
+    justify-content: left;
+    align-items: center;
+    padding-left: 1rem;
+    gap: 0.5rem;
+    width: 20rem;
+    
+}
+
+.secondsec span{
+    font-size: 0.8rem;
+    color: #696464;
+
+}
+
+.thirdSec{
+    width: 15rem;
+    justify-content: left;
+}
+
+.thirdSec > span{
+    font-size: 1.3rem;
+}
+
+
+.logo{
+    width: 30%;
+    /* border: 2px solid green; */
+    justify-content: space-around;
+}
+
+.fire > span {
+    margin-left: 6px;
+    color: red;
+}
+
+.logo1{
+    justify-content: flex-end;
+    padding-right: 3rem;
+}
+
+
+
+
